@@ -18,4 +18,12 @@ public static function getInstance()
 
 ```
 
-In this model, only an Instance of the class is Created
+In this model, only an Instance of the class is Created. 
+
+The List is sorted from Oldest to Latest, and The List is persisted in PHP Session 
+
+## File Structure
+
+control folder - Contains the Singleton Class
+css - CSS files for Bootstrap Framework for Styling
+js - The JS Files for the Bootstrap Framework
