@@ -1,5 +1,4 @@
 # GenerationList
-<<<<<<< HEAD
 System to Sort the List of Generations by Level
 
 ## Design Pattern
@@ -20,6 +19,3 @@ public static function getInstance()
 ```
 
 In this model, only an Instance of the class is Created
-=======
-## Usage
->>>>>>> fd6a3fff8060374256bed9d667df4f80c6cf6a00
