@@ -11,7 +11,7 @@ else
 
 $keys = array_keys($generationSingleton->getGenerationList());
 
-asort($keys);
+arsort($keys);
 
 $array = $generationSingleton->getGenerationList();
 
@@ -37,7 +37,7 @@ $array = $generationSingleton->getGenerationList();
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">Insly Test</a>
     </div>
     
   </div>
@@ -45,13 +45,13 @@ $array = $generationSingleton->getGenerationList();
 
 <form name="frm" method="POST">
 <div class="container-fluid">
-  <h1>New Generation</h1>
+  <h1>Generation List & Sorting</h1>
   <p>Add new Generation</p>
   <div class="row">
     <div class="col-sm-3">
       <div class="form-group">
         <label for="level">Level:</label>
-        <input type="text" class="form-control" id="level" name="level" required>
+        <input type="number" class="form-control" id="level" name="level" required>
       </div>
     </div>
 
